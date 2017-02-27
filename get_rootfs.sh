@@ -9,5 +9,5 @@ fi
 
 # get rootfs and extract
 wget http://cdimage.ubuntu.com/ubuntu-base/releases/16.04/release/ubuntu-base-16.04-core-armhf.tar.gz
-mkdir rootfs
-tar -xvf ubuntu-base-16.04-core-armhf.tar.gz -C rootfs
+mkdir AM335x
+tar -xvf ubuntu-base-16.04-core-armhf.tar.gz -C AM335x

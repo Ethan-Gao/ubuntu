@@ -9,7 +9,7 @@ fi
 
 # set necessary environment
 sudo apt-get install qemu-user-static
-sudo cp /usr/bin/qemu-arm-static rootfs/usr/bin/
-sudo cp /etc/resolv.conf rootfs/etc
+sudo cp /usr/bin/qemu-arm-static AM335x/usr/bin/
+sudo cp /etc/resolv.conf AM335x/etc
 echo "###kernel of host shouldn't be too old###"
-sudo chroot rootfs
+sudo chroot AM335x
